@@ -5,6 +5,15 @@
     <title>suitepicon</title>
     <style>
 
+        @font-face {
+            font-family: "suitepicon";
+            src: url("suitepicon.eot") format("embedded-opentype"),
+                 url("./suitepicon/suitepicon.woff2") format("woff2"),
+                 url("./suitepicon/suitepicon.woff") format("woff"),
+                 url("./suitepicon/suitepicon.ttf") format("truetype"),
+                 url("./suitepicon/suitepicon.svg#suitepicon") format("svg");
+        }
+
         body {
             font-family: sans-serif;
             margin: 0;
@@ -29,6 +38,9 @@
         }
 
         .preview .inner i {
+            font-family: "suitepicon";
+            font-style: normal !important;
+            font-weight: normal !important;
             line-height: 85px;
             font-size: 40px;
             color: #333;
